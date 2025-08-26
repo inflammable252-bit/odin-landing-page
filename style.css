@@ -78,6 +78,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .card-section>h2 {
@@ -118,5 +119,26 @@ h1 {
 
 /* section 3 start */
 .quote-section {
+    padding: 48px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.quote-section quote {
+    margin: 0;
+    font-color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-section>p {
+    margin: 0;
+    margin-left: auto;
+    padding: 0px 32px;
+    font-size: 24px;
+    font-weight: 600;
 }
