@@ -10,18 +10,49 @@ body {
 .header, .title-section {
     background-color: #1F2937;
     color: white;
-    display: flex;
-    margin: 0;
-    padding: 0 140px;
-
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title-section {
+    display: flex;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title-img-container {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex: 1;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    width: 125px;
+    padding: 4px 8px;
+}
+
+.header>p {
     font-size: 24px;
     font-weight: 600;
     color: #F9FAF8;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0;
 }
 
 ul {
@@ -39,23 +70,5 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 0 0 8px 0;
 }
 
-.title-section {
-    padding-top: 64px;
-    padding-bottom: 96px;
-    justify-content: space-between;
-}
-
-.title-container {
-    width: 50%;
-
-}
-
-.title-img-container {
-    background-color: gray;
-    margin: 0;
-    text-align: center;
-    flex: 1;
-}
